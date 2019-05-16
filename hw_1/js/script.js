@@ -5,7 +5,7 @@ let money = prompt("Ваш бюджет на месяц?", "30000"),
         timeData: time,
         expenses:{},
         optionalExpenses: {},
-        income: {},
+        income: [],
         savings: false
     }
 
@@ -16,7 +16,7 @@ let money = prompt("Ваш бюджет на месяц?", "30000"),
     
     appData.expenses[q1] = a1;
     appData.expenses[q2] = a2;
-    alert("Дневной бюджет: " + (money/30));
+    alert("Дневной бюджет: " + (addData.budget / 30));
 
     
     
