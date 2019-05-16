@@ -5,3 +5,6 @@
 ```
 
 1. [Первое задание](https://github.com/OneDayOf/udemyjs/tree/master/hw_1)
+2. [Второе задание](https://github.com/OneDayOf/udemyjs/tree/master/hw_2)
+
+* [Подсказки](https://github.com/OneDayOf/udemyjs/tree/master/cheets)
