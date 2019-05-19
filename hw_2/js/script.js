@@ -51,16 +51,16 @@ for (let i = 0; i < 2; i++) {
 
 console.log(typeof(appData.budget));
 
-let budgetPerDay = appData.budget / 30;
+ appData.moneyPerDay = appData.budget / 30;
 
-if (budgetPerDay < 200) {
-    console.log("Твой бюджет на день " + budgetPerDay + " Ебать ты лох");
-} else if (budgetPerDay < 1000) {
-    console.log("Твой бюджет на день " + budgetPerDay + " Нормас, на пивко хватит");
-} else if (budgetPerDay < 2000) {
-    console.log("Твой бюджет на день " + budgetPerDay + " Нихуя ты красавчик, Вован");
-} else if (budgetPerDay > 2000) {
-    console.log("Твой бюджет на день " + budgetPerDay + " Твой папа алигарх или чё?");
+if (appData.moneyPerDay < 200) {
+    console.log("Твой бюджет на день " + appData.moneyPerDay + " Низкий уровень достатка");
+} else if (appData.moneyPerDay < 1000) {
+    console.log("Твой бюджет на день " + appData.moneyPerDay + " Приемлемый уровень достатка");
+} else if (appData.moneyPerDay < 2000) {
+    console.log("Твой бюджет на день " + appData.moneyPerDay + " Хороший уровень достатка");
+} else if (appData.moneyPerDay > 2000) {
+    console.log("Твой бюджет на день " + appData.moneyPerDay + " Отличный уровень достатка");
 } else {
-    console.log("Да ты походу вообще нищий")
+    console.log("Неверные данные");
 }
